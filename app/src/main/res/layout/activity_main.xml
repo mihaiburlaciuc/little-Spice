@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="220dp"
+        android:layout_height="320dp"
+        android:background="@drawable/cir_button2"
+        android:onClick="newCirFile"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="40dp"
+        android:layout_marginTop="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/info_button2"
+        android:onClick="helpStart" />
+
+</RelativeLayout>

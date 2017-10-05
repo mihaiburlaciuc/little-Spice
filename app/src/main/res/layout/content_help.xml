@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:text="Folosirea programului:\n
+Pe prima linie din fisier trebuie precizat tipul de curent in care se doreste rezolvarea circuitului: .dc (cc) sau .ac (ca). In cazul in care se doreste in curent alternativ, atunci se adauga si frecventa pe urmatorul rand.
+Nu conteaza daca literele sunt mari sau mici.\n
+Este necesar sa exista un nod de masa global etichetat cu 0.\n
+La rezistoare alegerea sensului de referinta este arbitrara.\n
+La SIT sensul de referinta pentru curent este in sens opus sagetii interne.\n
+La SIC sensul de referinta este in acelasi sens cu sensul dublei sageti din simbolul sursei.\n
+Pentru simulare in curent alternativ trebuie introdusa atat partea reala cat si cea imaginara (daca partea imaginara este 0 se introduce 0) " />
+
+</LinearLayout>
